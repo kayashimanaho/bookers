@@ -4,18 +4,18 @@
 </div>
 
 <div class ="main1">
-  <p class ="tagu"><strong>title</strong>
+  <p class ="tagu"><strong>title:</strong>
   <p><%= @book.title %></p>
 </p>
 
-<p class ="tagu1"><strong>body</strong>
+<p class ="tagu1"><strong>body:</strong>
   <p><%= @book.body %></p>
   </p>
  </div>
  
-  <div class ="link">
+  <a class ="link">
    <%= link_to "Edit", edit_book_path(@book.id) %>
- 
+   |
    <%= link_to "Back", books_path %>
-  </div>
+  </a>
  </div>

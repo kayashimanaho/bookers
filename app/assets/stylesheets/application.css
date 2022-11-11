@@ -27,13 +27,38 @@
 }
 
 .main1 {
-  justify-content: center;
+    
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px
 }
 
+.tagu {
+   float: left;  
+}
+
+.tagu1 {
+   float: left;  
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
 
 
 .link {
   cursor: pointer;
   text-decoration: underline;
-  
 }
+
+.link:hover {
+  background-color: black;
+  color: white;
+}
+  
