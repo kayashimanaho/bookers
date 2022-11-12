@@ -52,12 +52,13 @@ table {
 }
 
 
+
 .link {
   cursor: pointer;
   text-decoration: underline;
 }
 
-.link:hover {
+a:hover {
   background-color: black;
   color: white;
 }
